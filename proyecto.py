@@ -2,6 +2,11 @@ from pyniryo import *  # Librería para controlar el robot Niryo
 import math
 import serial  # Para la comunicación con el Arduino
 
+# niryo_one_python_api: Para la comunicación y control del robot Niryo One.
+# RPI.GPIO: Para manejar los pines GPIO.
+# Math: Para realizar cálculos matemáticos
+# pyserial: Permite la comunicación serial con un Arduino conectado a un puerto específico (COM4)
+
 # Configuración del robot Niryo
 robot = NiryoRobot("10.10.10.10")
 
